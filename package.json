@@ -1,0 +1,16 @@
+{
+  "name": "live-ws-passport-auth",
+  "version": "1.0.0",
+  "description": "mern app using passport auth",
+  "main": "server.js",
+  "author": "Anis Mell",
+  "license": "MIT",
+  "dependencies": {
+    "concurrently": "^5.3.0"
+  },
+  "scripts": {
+    "server": "cd backend && yarn dev",
+    "client": "cd client && yarn start",
+    "start": "concurrently \"yarn client\" \" yarn server\" "
+  }
+}
