@@ -1,0 +1,4 @@
+{
+  "mongoUri": "mongodb://localhost:27017/contact_db",
+  "secretOrKey": "my secret"
+}

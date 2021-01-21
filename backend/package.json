@@ -1,0 +1,25 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "description": "backend server for my mern app",
+  "main": "server.js",
+  "author": "Anis Mell",
+  "license": "MIT",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "config": "^3.3.2",
+    "express": "^4.17.1",
+    "express-validator": "^6.6.1",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^5.10.14",
+    "passport": "^0.4.1",
+    "passport-jwt": "^4.0.0"
+  },
+  "scripts": {
+    "start": "node server",
+    "dev": "nodemon server"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.6"
+  }
+}
